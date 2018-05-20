@@ -1,26 +1,26 @@
 ShadowsocksR
 ===========
 
-edit：
-sudo vi /etc/shadowsocks.json
-as:
-{
-"server":"104.156.231.69",
-"server_ipv6":"::",
-"server_port":2333,
-"local_address":"127.0.0.1",
-"local_port":1080,
-"password":"31415926",
-"timeout":300,
-"udp_timeout":60,
-"method":"aes-128-ctr",
-"protocol":"auth_sha1_v4",
-"protocol_param":"",
-"obfs":"http_post",
-"obfs_param":"",
-"fast_open":false,
-"workers":1
-}
+edit：  
+sudo vi /etc/shadowsocks.json  
+as:  
+{  
+"server":"104.156.231.69",  
+"server_ipv6":"::",  
+"server_port":2333,  
+"local_address":"127.0.0.1",  
+"local_port":1080,  
+"password":"31415926",  
+"timeout":300,  
+"udp_timeout":60,  
+"method":"aes-128-ctr",  
+"protocol":"auth_sha1_v4",  
+"protocol_param":"",  
+"obfs":"http_post",  
+"obfs_param":"",  
+"fast_open":false,  
+"workers":1  
+}  
 
 
 
