@@ -1,6 +1,13 @@
 ShadowsocksR
 ===========
 
+[![Build Status]][Travis CI]
+
+A fast tunnel proxy that helps you bypass firewalls.
+
+Quick linux Install
+------
+
 edit：  
 sudo vi /etc/shadowsocks.json  
 as:  
@@ -22,12 +29,15 @@ as:
 "workers":1  
 }  
 
+## linux run
+
+./connect.sh
+./reconnect.sh
+./disconnect.sh
+
+Done! 
 
 
-
-[![Build Status]][Travis CI]
-
-A fast tunnel proxy that helps you bypass firewalls.
 
 Server
 ------
